@@ -1,18 +1,18 @@
 # Week-3-deliverables
 
 ## I got prop and state features working in a test project, but when I went to add those to my main project, I was Unable to figure out how to pass props when using Route.  I tried these different calls to no avail:
-* <Route exact path="/props-through-render" render={(props) => <PropsPage {...props} title={`Props through render`} />} />
-* <Route path='/mybooks' render={routeProps => <Books {...routeProps} booksGetter={getMyBooks}/>} />
-* <Route exact path="/props-through-render" render={(props) => <PropsPage {...props}      title={`Props through render`} />} />
-* <Route path="/greeting/:name" render={(props) => <Greeting text="Hello, " {...props} />} />
-* <Route exact path='/' render={(props) => <LoginForm {...props} doesitwork="2" userName={this.onChangeUserName.bind(this)} />} />
-* <Route path="/" render={(props) => <LoginForm  doesitwork="Hello" {...props} />} />
-* <Route path="/" doesitwork="Hello" component={Form}/>
-* <Route path="/" render={MyLoginForm} />
-* <Route path='/' render={routeProps => <LoginForm {...routeProps} doesitwork="yesitdoes"/>}  />
-* <Route path="/" render={(props) => <LoginForm doesitwork="yesitdoes"/>}/>
+* <Route exact path="/props-through-render" render={(props) => <PropsPage {...props} title={`Props through render`} />} />  
+* <Route path='/mybooks' render={routeProps => <Books {...routeProps} booksGetter={getMyBooks}/>} />  
+* <Route exact path="/props-through-render" render={(props) => <PropsPage {...props}      title={`Props through render`} />} />  
+* <Route path="/greeting/:name" render={(props) => <Greeting text="Hello, " {...props} />} />  
+* <Route exact path='/' render={(props) => <LoginForm {...props} doesitwork="2" userName={this.onChangeUserName.bind(this)} />} />   
+* <Route path="/" render={(props) => <LoginForm  doesitwork="Hello" {...props} />} />  
+* <Route path="/" doesitwork="Hello" component={Form}/>  
+* <Route path="/" render={MyLoginForm} />  
+* <Route path='/' render={routeProps => <LoginForm {...routeProps} doesitwork="yesitdoes"/>}  />  
+* <Route path="/" render={(props) => <LoginForm doesitwork="yesitdoes"/>}/>  
  
-## SO,  I am submitting TWO projects which each have different features, yes, I might get a grade hit.....
+## SO,  I am submitting TWO projects which each have different features, yes, I might get a grade hit, but I wasnt going to break my Route linking.
 ## The first project/app is my original:
 ### React project is here: https://github.com/reswanson/my-react-project
 ### Heroku link is: https://rswanson-assignment1.herokuapp.com/
