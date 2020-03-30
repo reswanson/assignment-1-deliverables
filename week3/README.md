@@ -38,5 +38,5 @@
 
 * Passing props with a callback so the Submit on the LoginForm will update the HEADER with the user that is logged in.  I think this shows props and state, ( parent -> child), (child to parent) and (child to child) as the username has to flow all the way back thru.
 * I figured since the original requirements called for different permissions based on the USER, I should get that value soon.
-* The /browse link doesnt work as I think I HAVE TO HAVE <Route> to allow adding multiple pages and I couldnt get props to work with <Route>
+* The /browse link doesnt work as I was doing my development and had stripped some of the functionality of my test-project to simplify learning the states and props.  So the second page doesnt exist in this App.
 
