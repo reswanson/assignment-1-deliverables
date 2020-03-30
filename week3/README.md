@@ -1,11 +1,11 @@
 # Week-3-deliverables
 
-## I got prop and state features working in a test project, but when I went to add those to my main project, I was Unable to figure out how to pass props when using Route.  I tried these different calls to no avail:
+## I got prop and state features working in a test project, but when I went to add those to my main project, I was Unable to figure out how to pass props when using Route.  Let me know if you have any ideas to try.   I tried these different calls to no avail:
 * <Route exact path="/props-through-render" render={(props) => <PropsPage {...props} title={`Props through render`} />} />  
 * <Route path='/mybooks' render={routeProps => <Books {...routeProps} booksGetter={getMyBooks}/>} />  
 * <Route exact path="/props-through-render" render={(props) => <PropsPage {...props}      title={`Props through render`} />} />  
 * <Route path="/greeting/:name" render={(props) => <Greeting text="Hello, " {...props} />} />  
-* <Route exact path='/' render={(props) => <LoginForm {...props} doesitwork="2" userName={this.onChangeUserName.bind(this)} />} />   
+* <Route exact path='/' render={(props) => <LoginForm {...props} doesitwork="2" userName={this.onChangeUserName.bind(this)} />} />  
 * <Route path="/" render={(props) => <LoginForm  doesitwork="Hello" {...props} />} />  
 * <Route path="/" doesitwork="Hello" component={Form}/>  
 * <Route path="/" render={MyLoginForm} />  
