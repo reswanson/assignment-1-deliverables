@@ -11,17 +11,16 @@
 
 
 
-
 ### React project is here: https://github.com/reswanson/my-react-project/tree/week6         
-- (week6 branch, I wasnt merging to master until I had it working)
+- ( week6 branch, I wasnt merging to master until I had it working)
      
 ### Heroku link is: https://rswanson-assignment1.herokuapp.com/ 
-- (This has last weeks code)  
+- ( This has last week's code as I rolled back what I had been trying to deploy. )
   
-### Video where I demo what I have working locally: (will have to download it)
+### Video where I demo what I have working locally: ( you will have to download it )
 - https://github.com/reswanson/assignment-deliverables/blob/master/week6/Rswanson-assignment6-localenv-demo.mp4
   
-### Zip of my local MongoDB directory:  
+### Zip of my local MongoDB directory:   ( you will have to download it )
 - https://github.com/reswanson/assignment-deliverables/blob/master/week6/rswanso-mongodb-data-dir.zip  
 
 
