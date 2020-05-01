@@ -13,5 +13,6 @@ This can be located on the ADMIN page where you can enter the ID of a user and i
 ## Please find my project deliverables here:
 ### React project: https://github.com/reswanson/my-react-project
 ### Heroku link: https://rswanson-assignment1.herokuapp.com/
-### Zip of my local MongoDB db directory is in this week7 folder.  ( I haven't used this for a few days).
-### You had asked for a writeup concerning testing for the Week 7 assignment and that is in a Word doc in this directory as well.
+### Zip of my local MongoDB db directory is in this week7 folder. 
+### You had asked for a writeup concerning testing for the Week 7 assignment and that is also in this directory as a Word Doc.
+
